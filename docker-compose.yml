@@ -27,6 +27,7 @@ services:
 
   flask-app:
     container_name: two-tier-app
+    restart: always
     build:
       context: .
 
