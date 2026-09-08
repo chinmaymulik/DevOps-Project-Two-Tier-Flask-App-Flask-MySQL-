@@ -308,3 +308,5 @@ The CI/CD pipeline is now fully operational. Any `git push` to the `main` branch
 
 ### **10. Work flow Diagram**
 <img src="diagrams/project_workflow.png">
+
+###(Note:- If you faced any issue during jenkins job build due to built in node offline or disk space is low then first check the available free space of out of total space and increase the space for the running instance by going to volume section and then change the size based on the instance specification for t3.micro instance. In 2026 select free tier t3.micro while creating instance.)
